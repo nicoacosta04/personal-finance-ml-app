@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments (never upload them)
+backend/.venv_linux/
+backend/venv/
+ui/.venv_linux/
+ui/venv/
+
+# Databases (local only)
+backend/finance.db
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# Streamlit internal folder
+.streamlit/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Models (optional - if they are heavy)
+# backend/models/*.bin
+# backend/models/minilm_embedding_model/
